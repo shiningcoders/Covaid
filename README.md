@@ -1,4 +1,10 @@
-<img src="/assets/logo.png" alt="Covaid Logo" style="width: 5rem; height: 5rem;">
+<img src="/assets/logo.png" alt="Covaid Logo" style="width: 2.5rem; height: 2.5rem;">
 
 # Covaid - Covid Aid Platform
+Covaid = Covid + Aid
 
+The main goal of this platform is to provide accurate and realtime information about availablity of oxygen cylinders, plasma donators and hospital beds.
+This will be managed by the users themself. Anyone can post the information and people can verify and update the current status. 
+
+## How it works
+- 
