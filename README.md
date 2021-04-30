@@ -1,4 +1,4 @@
-<img src="/assets/logo.png" alt="Covaid Logo" style="width: 100px; height: 100px;">
+<img src="/assets/logo.png" alt="Covaid Logo" width="100" height="100"">
 
 # Covaid - Covid Aid Platform
 Covaid = Covid + Aid
