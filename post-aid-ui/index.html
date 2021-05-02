@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/bdde34b2df.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Post Aid Screen</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="wrapper">
+        <div class="container">
+          <div class="post-aid">
+            <div class="section1">
+              <div class="row mb-3">
+                <div class="col-8">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="rounded-circle image"></div>
+                    </div>
+                    <div class="col-8">
+                      <div class="row">
+                        <div class="name display-5">Shubham Sharma</div>
+                      </div>
+                      <div class="row">
+                        <small class="text-muted">text</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="grid-container">
+                    <div class="rounded-circle icon ml-5">
+                      <i class="fas fa-phone-volume mt-2"></i>
+                    </div>
+                    <div class="rounded-circle icon">
+                      <i class="fas fa-map-marker-alt mt-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section2">
+              <div class="row">
+                <div class="col">
+                  <form>
+                    <div class="col mb-3">
+                      <label for="aid-provider" class="form-label"
+                        >Aid Provider</label
+                      >
+
+                      <input
+                        type="text"
+                        class="form-control post-aid-input"
+                        id="aid-provider"
+                        placeholder="Your name please..."
+                      />
+                    </div>
+                    <div class="col mb-3">
+                      <label for="contact-no" class="form-label"
+                        >Contact Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control post-aid-input"
+                        id="contact-no"
+                        placeholder="+91-1234567890"
+                      />
+                    </div>
+                    <div class="col mb-3">
+                      <label for="address" class="form-label">Address</label>
+                      <input
+                        type="text"
+                        class="form-control post-aid-input"
+                        id="address"
+                        placeholder="Address"
+                      />
+                    </div>
+                    <div class="col mb-3">
+                      <label for="disc" class="form-label">Discription</label>
+                      <input
+                        type="text"
+                        class="form-control post-aid-input"
+                        id="disc"
+                        placeholder="Discription"
+                      />
+                    </div>
+                    <div class="col mb-3">
+                      <div class="row">
+                        <div class="col-6">
+                          <div class="form-group">
+                            <label for="sel1">Aid Service</label>
+                            <select
+                              class="form-control post-aid-input"
+                              id="sel1"
+                            >
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-3">
+                      <div class="row">
+                        <div class="col">
+                          <label for="sp" class="form-label"
+                            >Service Price</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control post-aid-input"
+                            id="sp"
+                            placeholder="Add discription"
+                          />
+                        </div>
+                        <div class="col mt-3">
+                          <div class="input-group mt-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text post-aid-input"
+                                >Per</span
+                              >
+                            </div>
+                            <input
+                              type="number"
+                              class="form-control post-aid-input"
+                              placeholder="Unit"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-3">
+                      <div class="row">
+                        <div class="col-6">
+                          <label for="stock" class="form-label"
+                            >Available Stock</label
+                          >
+                          <input
+                            type="number"
+                            class="form-control post-aid-input"
+                            id="stock"
+                            placeholder="01"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-3">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="is-verified"
+                        />
+                        <label class="form-check-label" for="is-verified">
+                          Is verified
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <button
+                        type="submit"
+                        class="btn post-aid-btn post-aid-input"
+                      >
+                        Post Aid
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="background object1" src="assets/images/bgRing.png" />
+      <img class="background object2" src="assets/images/object2.svg" />
+    </div>
+  </body>
+</html>
