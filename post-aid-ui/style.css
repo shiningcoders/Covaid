@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+.post-aid {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #e3e3e3;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.section1 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.section2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+}
+.post-aid-btn {
+  background-color: #7433ff;
+  color: white;
+}
+
+.post-aid-input {
+  border-radius: 10px;
+  box-shadow: 3px 1px 8px #b3b2b2;
+}
+
+label {
+  color: #484848;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  background-color: #484848;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  grid-gap: 5px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  background-color: #ffacfd;
+  text-align: center;
+}
+.background {
+  z-index: -1;
+  position: absolute;
+}
+.object1 {
+  top: 40%;
+  left: -5%;
+  max-height: 500px;
+}
+.object2 {
+  top: 0;
+  right: 0;
+  min-height: 300px;
+}
