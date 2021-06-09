@@ -18,3 +18,7 @@ This will be managed by the users themself. Anyone can post the information and 
 ### Contributors
 
 This is open sourced public interest project maintained by the open community. Anyone can contribute to this repository. All the contributors must be credited, and hence below mentioned the list of all the contributors:
+
+[![](https://avatars.githubusercontent.com/u/30977789?v=4)](https://github.com/AjayrajSingh)
+[![](https://avatars.githubusercontent.com/u/49240130?v=4)](https://github.com/aakhya1)
+[![](https://github.com/Ashish1322.png?size=50)](https://github.com/Ashish1322)
